@@ -1,5 +1,11 @@
 # PxGraf
 
+## SSB-Fork
+
+For SSB it is convenient to be able to test PX-graf locally or on nais test for short periods. Because some hard coded dependencies and api settings, we need to modify the original source code to make it work in SSB context. This repo is just to store these changes.
+
+Important! This fork is not currently running in any environmant.
+
 ## Overview
 PxGraf is a tool developed and maintained by Statistics Finland (Tilastokeskus) for visualizing statistical data from Px tables using the PxWeb API or local px database with Px.Utils library. The backend, written in C# with ASP.NET Core, fetches px file data from the PxWeb API or local px database using Px.Utils library, processes it for visualizations and serves it via REST apis. The frontend, written in TypeScript with React, provides a user interface for selecting and previewing data for visualizations and saving them as queries. The visualizations are drawn using PxVisualizer npm package, also developed and maintained by Statistics Finland.
 
