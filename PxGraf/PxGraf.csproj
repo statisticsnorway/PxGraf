@@ -8,7 +8,7 @@
     <UserSecretsId>5fefcbdc-e04e-4475-9927-aab412b027ff</UserSecretsId>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <VersionPrefix>4.8.2</VersionPrefix>
-	<!-- <SpaRoot>..\PxGraf.Frontend</SpaRoot> -->
+	<SpaRoot>..\PxGraf.Frontend</SpaRoot>
 	<Configurations>Debug;Release;Test</Configurations>
   </PropertyGroup>
 
